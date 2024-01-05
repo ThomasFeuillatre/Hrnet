@@ -8,7 +8,7 @@ const { Title } = Typography;
 const AppHeader = ({ isDarkTheme, toggleTheme }) => (
     <Header className="app-header">
         <div className="header-content">
-            <img src={companyLogo} alt="Wealth Health Logo" />
+            <img src={companyLogo} width={60} height={60}  alt="Wealth Health Logo" />
             <div className="company-info">
                 <Title level={3} className="company-name">
                     <Link to="/">Wealth Health - HRNet</Link>
